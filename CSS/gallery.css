@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(rgb(255, 255, 255), #111);
+   padding: 20px 0;
+   color: #000000;
+  }
+
+td.a{
+    background: radial-gradient(transparent, transparent 4px, rgb(58, 62, 119) 4px,rgb(248, 248, 248));
+    padding: 10px;
+    width: 300px;
+    height: 220px;
+    background-size: 20px 20px;
+    background-position: -10px -10px;
+    margin: 0 auto;
+}
+
+
+
+.a:hover::after {  
+    position: absolute;
+    left: 20px;;
+    bottom: 88%;
+    min-width:140px;
+    content: attr(data-title);
+    visibility:visible;
+    min-width:0px;
+    font-size: 14px;
+    background-color: rgba(69, 70, 121, 0.95);
+    color: rgb(255, 255, 255);
+    padding: 13px;
+    border-radius: 19px;
+    
+}
+
+
+td.a{
+    transition: all 1s ease-out;
+    transition-duration: 0.5s;
+}
+td.a:hover{ 
+    transform: scale(1.1); 
+    }

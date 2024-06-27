@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(#123, #111);
+   padding: 20px 0;
+   color: #000000;
+}
+h2.zagl{
+    color: #ffffff;
+    font-size:250%;
+}
+
+h3.a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+h2.zagl1{
+    color: #ffffff;
+    font-size:250%;
+}
+h3.b{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+.pho{
+    display: flex;
+    justify-content: space-around;
+}
+
+h2.zagl2{
+    color: #ffffff;
+    font-size:250%;
+}
+
+h3.c{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}

@@ -1,0 +1,38 @@
+  
+body{
+    font-family:'Lobster', cursive;
+    background: linear-gradient(#123, #111);
+   padding: 20px 0;
+   color: #000000;
+  }
+
+audio.a{
+    position: relative;
+    left: 36%;
+    right: 0%;
+    top: 0px;
+    bottom: 0px;
+    
+}
+h1.zagl{
+    
+    color: #ffffff;
+}
+p.raz1{
+    color: #ffffff;
+    font-size:150%
+}
+p.raz{
+    color: #ffffff;
+    font-size:150%
+}
+p.a{
+    color: #ffffff;
+    font-size:250%;
+}
+p{
+    color: #ffffff;
+    font-family:'Lobster', cursive;
+    font-size:120%;
+}
+
